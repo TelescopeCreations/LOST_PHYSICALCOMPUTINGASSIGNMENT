@@ -15,9 +15,9 @@ public class COLOURRANDOMIZER2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        ChangeColour();
+        ChangeColour2();
     }
-    void ChangeColour()
+    void ChangeColour2()
     {
         Thread.Sleep(10000);
         meshRenderer.material.color = Random.ColorHSV();

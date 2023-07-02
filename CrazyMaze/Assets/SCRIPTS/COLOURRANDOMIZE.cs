@@ -20,7 +20,7 @@ public class COLOURRANDOMIZE : MonoBehaviour
     }
     void ChangeColour()
     {
-        Thread.Sleep(5000);
+        Thread.Sleep(2000);
         meshRenderer.material.color = Random.ColorHSV();
     }
 }
